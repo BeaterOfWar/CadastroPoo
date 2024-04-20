@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package model;
+package cadastropoo.model;
 import java.io.Serializable;
 
 public class Pessoa implements Serializable {
@@ -32,6 +32,6 @@ public class Pessoa implements Serializable {
     }
 
     public void exibir() {
-        System.out.println("ID: " + id + ", Nome: " + nome);
+        System.out.println("ID: " + id + "\nNome: " + nome);
     }
 }

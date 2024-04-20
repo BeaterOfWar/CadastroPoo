@@ -1,14 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package cadastropoo;
 
-
-import model.PessoaFisica;
-import model.PessoaFisicaRepo;
-import model.PessoaJuridica;
-import model.PessoaJuridicaRepo;
+import cadastropoo.model.*;
 
 import java.io.IOException;
 

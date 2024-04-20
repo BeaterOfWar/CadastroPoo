@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package model;
+package cadastropoo.model;
 
 import java.io.Serializable;
 
@@ -35,6 +35,5 @@ public class PessoaFisica extends Pessoa implements Serializable {
     @Override
     public void exibir() {
         super.exibir();
-        System.out.println("CPF: " + cpf + ", Idade: " + idade);
-    }
+        System.out.println("CPF: " + cpf + "\nIdade: " + idade);    }
 }

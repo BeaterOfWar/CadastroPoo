@@ -1,4 +1,4 @@
-package model;
+package cadastropoo.model;
 import java.io.*;
 import java.util.ArrayList;
 
