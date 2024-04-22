@@ -18,8 +18,9 @@ public class PessoaJuridicaRepo implements Serializable {
         }
     }
 
-    public void excluir(int id) {
+    public boolean excluir(int id) {
         pessoasJuridicas.removeIf(p -> p.getId() == id);
+        return false;
     }
 
     public PessoaJuridica obter(int id) {

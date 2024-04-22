@@ -18,8 +18,9 @@ public class PessoaFisicaRepo implements Serializable {
         }
     }
 
-    public void excluir(int id) {
+    public boolean excluir(int id) {
         pessoasFisicas.removeIf(p -> p.getId() == id);
+        return false;
     }
 
     public PessoaFisica obter(int id) {
